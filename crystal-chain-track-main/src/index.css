@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 140 10% 96%;
+    --foreground: 160 15% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 160 15% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 15% 10%;
+
+    --primary: 152 60% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 150 10% 91%;
+    --secondary-foreground: 160 15% 10%;
+
+    --muted: 150 8% 93%;
+    --muted-foreground: 160 5% 45%;
+
+    --accent: 152 40% 90%;
+    --accent-foreground: 152 60% 25%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 150 10% 87%;
+    --input: 150 10% 87%;
+    --ring: 152 60% 36%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 160 20% 6%;
+    --sidebar-foreground: 150 10% 80%;
+    --sidebar-primary: 152 60% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 160 15% 12%;
+    --sidebar-accent-foreground: 152 50% 65%;
+    --sidebar-border: 160 15% 14%;
+    --sidebar-ring: 152 60% 45%;
+
+    /* Custom tokens */
+    --chain-manufacturer: 152 60% 36%;
+    --chain-distributor: 199 89% 48%;
+    --chain-retailer: 271 81% 56%;
+    --chain-customer: 38 92% 50%;
+    --gradient-hero: linear-gradient(135deg, hsl(152 60% 36%), hsl(162 70% 28%));
+    --gradient-dark: linear-gradient(135deg, hsl(160 20% 4%), hsl(160 20% 10%));
+    --shadow-glow: 0 0 40px hsl(152 60% 36% / 0.15);
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: 160 20% 4%;
+    --foreground: 150 10% 93%;
+
+    --card: 160 18% 7%;
+    --card-foreground: 150 10% 93%;
+
+    --popover: 160 18% 7%;
+    --popover-foreground: 150 10% 93%;
+
+    --primary: 152 60% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 160 15% 12%;
+    --secondary-foreground: 150 10% 93%;
+
+    --muted: 160 15% 12%;
+    --muted-foreground: 150 5% 55%;
+
+    --accent: 160 15% 12%;
+    --accent-foreground: 152 50% 65%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 160 15% 14%;
+    --input: 160 15% 14%;
+    --ring: 152 60% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-hero);
+  }
+  .bg-hero-gradient {
+    background-image: var(--gradient-hero);
+  }
+  .bg-dark-gradient {
+    background-image: var(--gradient-dark);
+  }
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  .chain-line {
+    @apply h-0.5 flex-1;
+    background-image: var(--gradient-hero);
+  }
+}
