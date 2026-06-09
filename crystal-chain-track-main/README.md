@@ -1,23 +1,19 @@
-# Crypsia
+# Crystal Chain Track
 
-A blockchain-powered supply chain tracking platform that enables transparent product tracing, secure ownership transfers, and real-time monitoring across manufacturers, distributors, retailers, and consumers.
+A modern supply chain tracking platform designed to monitor products throughout their lifecycle, providing transparency, traceability, and efficient management for manufacturers, distributors, retailers, and customers.
 
-## Project Information
+## Project Overview
 
-Crystal Chain Track provides end-to-end visibility into the product lifecycle, ensuring authenticity, transparency, and trust throughout the supply chain.
+Crystal Chain Track helps organizations track product movement, manage inventory updates, monitor supply chain activities, and improve visibility across all stages of distribution.
 
-## How to Edit This Code
+## Getting Started
 
-### Use Your Preferred IDE
-
-You can clone this repository and work locally.
-
-#### Prerequisites
+### Prerequisites
 
 * Node.js
 * npm
 
-#### Setup
+### Installation
 
 ```bash
 # Clone the repository
@@ -33,56 +29,45 @@ npm install
 npm run dev
 ```
 
-### Edit Directly on GitHub
+## Development
 
-1. Navigate to the desired file.
-2. Click the Edit (✏️) button.
-3. Make your changes.
-4. Commit the changes.
+You can work on the project using:
 
-### Use GitHub Codespaces
-
-1. Open the repository on GitHub.
-2. Click **Code** → **Codespaces**.
-3. Create a new Codespace.
-4. Edit, commit, and push your changes.
+* Your preferred IDE
+* GitHub Codespaces
+* Direct GitHub file editing
 
 ## Technologies Used
 
-* Vite
-* TypeScript
 * React
+* TypeScript
+* Vite
 * Tailwind CSS
 * shadcn/ui
 * Supabase
-* Blockchain Integration
 
-## Deployment
+## Features
 
-Build the project for production:
+* Product tracking and monitoring
+* Supply chain visibility
+* Inventory management
+* Product lifecycle management
+* Role-based dashboards
+* Authentication and authorization
+* Real-time data updates
+* Product traceability
+
+## Build for Production
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+## Preview Production Build
 
 ```bash
 npm run preview
 ```
-
-Deploy the generated build files using your preferred hosting platform.
-
-## Features
-
-* Blockchain-based product tracking
-* Supply chain transparency
-* Product authenticity verification
-* Real-time status updates
-* Role-based access control
-* Manufacturer, Distributor, and Retailer dashboards
-* Product traceability and ownership history
-* Secure authentication and authorization
 
 ## License
 
