@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# Crypsia
 
-## Project info
+A blockchain-powered supply chain tracking platform that enables transparent product tracing, secure ownership transfers, and real-time monitoring across manufacturers, distributors, retailers, and consumers.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Project Information
 
-## How can I edit this code?
+Crystal Chain Track provides end-to-end visibility into the product lifecycle, ensuring authenticity, transparency, and trust throughout the supply chain.
 
-There are several ways of editing your application.
+## How to Edit This Code
 
-**Use Lovable**
+### Use Your Preferred IDE
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+You can clone this repository and work locally.
 
-Changes made via Lovable will be committed automatically to this repo.
+#### Prerequisites
 
-**Use your preferred IDE**
+* Node.js
+* npm
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#### Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Edit Directly on GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Navigate to the desired file.
+2. Click the Edit (✏️) button.
+3. Make your changes.
+4. Commit the changes.
 
-**Use GitHub Codespaces**
+### Use GitHub Codespaces
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Open the repository on GitHub.
+2. Click **Code** → **Codespaces**.
+3. Create a new Codespace.
+4. Edit, commit, and push your changes.
 
-## What technologies are used for this project?
+## Technologies Used
 
-This project is built with:
+* Vite
+* TypeScript
+* React
+* Tailwind CSS
+* shadcn/ui
+* Supabase
+* Blockchain Integration
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
+Build the project for production:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```bash
+npm run build
+```
 
-## Can I connect a custom domain to my Lovable project?
+Preview the production build:
 
-Yes, you can!
+```bash
+npm run preview
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Deploy the generated build files using your preferred hosting platform.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Features
+
+* Blockchain-based product tracking
+* Supply chain transparency
+* Product authenticity verification
+* Real-time status updates
+* Role-based access control
+* Manufacturer, Distributor, and Retailer dashboards
+* Product traceability and ownership history
+* Secure authentication and authorization
+
+## License
+
+This project is intended for educational and research purposes.
