@@ -1,50 +1,14 @@
-# Crypsia
+# Crystal Chain Track
 
 A modern supply chain tracking platform designed to monitor products throughout their lifecycle, providing transparency, traceability, and efficient management for manufacturers, distributors, retailers, and customers.
+
+## 🌐 Live Demo
+
+**Website:** https://crypsia.vercel.app/
 
 ## Project Overview
 
 Crystal Chain Track helps organizations track product movement, manage inventory updates, monitor supply chain activities, and improve visibility across all stages of distribution.
-
-## Getting Started
-
-### Prerequisites
-
-* Node.js
-* npm
-
-### Installation
-
-```bash
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-## Development
-
-You can work on the project using:
-
-* Your preferred IDE
-* GitHub Codespaces
-* Direct GitHub file editing
-
-## Technologies Used
-
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-* shadcn/ui
-* Supabase
 
 ## Features
 
@@ -57,13 +21,31 @@ You can work on the project using:
 * Real-time data updates
 * Product traceability
 
-## Build for Production
+## Technologies Used
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* shadcn/ui
+* Supabase
+
+## Installation
+
+```bash
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
+npm install
+npm run dev
+```
+
+## Build
 
 ```bash
 npm run build
 ```
 
-## Preview Production Build
+## Preview
 
 ```bash
 npm run preview
@@ -71,4 +53,4 @@ npm run preview
 
 ## License
 
-This project is intended for educational and research purposes.
+This project is intended for educational and educational demonstration purposes.
