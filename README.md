@@ -1,4 +1,4 @@
-# Crystal Chain Track
+# Crypsia
 
 A modern supply chain tracking platform designed to monitor products throughout their lifecycle, providing transparency, traceability, and efficient management for manufacturers, distributors, retailers, and customers.
 
